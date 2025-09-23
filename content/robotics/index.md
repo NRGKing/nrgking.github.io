@@ -17,10 +17,19 @@ The Knights Autonomous Library includes all of the code necessary for VEX teams 
 - Motion algorithms for robot movement: heavily optimized pure pursuit algorithm (for curved and path following movement) and functional approach to PID (forward/backward and turning). Currently working on move to position with heading
 - Visual path planner: can create full routes with lateral, turn, and curved movements without code
 
+### Constraints
+Key constraints of VEX robotics system include:
+- Only VEX sensors can be used: third-party inertial sensors for odometry and microcontrollers are prohibited. VEX sensors also can be error-prone, so I needed to write code to account for this.
+- Time limits: limited autonomous periods require us to optimize our movement speed
+- Propagated Error: VEX rules are extremely strict. If a propagated error results in us breaking a rule (like autonomously picking up a third ring when only two are allowed), our autonomous run is disqualified. Therefore, we have switched to using global movements to ensure that our robot always goes to the correct position.
+
+
 ### Visual Path Planner Creation Process
 **Version 1** was made with Pygame. Inputs in text form allowed for simple lateral (forward/backward) and turn movements and were displayed on a map. This approach was great for a MVP, but it ended up not being performant enough to handle larger paths with the frame-based rendering of Pygame.
  
-**Version 2** had a similar backend, but incorporated pure pursuit and could create curved paths. Last year’s competition had many obstacles so I built a graph structure with each box corresponding to a specific game field tile. I used graph search algorithms followed by bezier curves to create the arc between any two tiles. Since curves weren’t integrated with lateral and turn movements, I used Rust, HTML, CSS, and Javascript to upgrade the backend and visuals in the current version. It also incorporates lateral movements, turns, path generation with bezier curves, and has an input system to command robot components (intake, wings, etc). My teammates can use it to easily create autonomous routes.
+**Version 2** had a similar backend, but incorporated pure pursuit and could create curved paths. Last year’s competition had many obstacles so I built a graph structure with each box corresponding to a specific game field tile. I used graph search algorithms followed by bezier curves to create the arc between any two tiles. 
+
+**Version 3** I used Rust, HTML, CSS, and Javascript to upgrade the backend and visuals in the current version. It also incorporates lateral movements, turns, path generation with bezier curves, and has an input system to command robot components (intake, wings, etc). My teammates can use it to easily create autonomous routes.
 
 ### Reflection
 Some of my earlier work had mistakes, like using time-based lateral movement instead of global position. These caused inaccuracy, resulting in low scores in programming skills and autonomous win points. However, these earlier stages were necessary for me to see why I needed to optimize motion algorithms or why I needed to incorporate features such as global movement or PID in our current design.
