@@ -22,6 +22,25 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-default_theme = "dark"
+default_theme = "light"
 default_language = "en"
+styles = ["mods.css"]
 
+# Accent colors from the Duckquill demo
+accent_color = "#ff7800"
+accent_color_dark = "#ffa348"
+
+[extra.nav]
+# Whether to show the manual theme switcher in the nav
+show_theme_switcher = false
+# Whether to show the Atom/RSS feed button in the nav
+show_feed = false
+# Whether to show the link to the source repository in the nav
+show_repo = false
+# Links used in the nav.
+# For local files use same link format as in Markdown,
+# i.e. "@/blog/_index.md".
+# See https://www.getzola.org/documentation/content/linking/#internal-links
+links = [
+    { url = "@/robotics/index.md", name = "Robotics" },
+]
