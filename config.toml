@@ -2,7 +2,7 @@
 base_url = "https://example.com"
 
 # The title of the site. This is required.
-title = "nik's Portfolio"
+title = "Nik RG"
 description = "Welcome to my portfolio website."
 
 # The name of the theme to use. This was moved from the [extra] section.
@@ -43,4 +43,5 @@ show_repo = false
 # See https://www.getzola.org/documentation/content/linking/#internal-links
 links = [
     { url = "@/robotics/index.md", name = "Robotics" },
+    { url = "@/game-development/index.md", name = "Game Development" },
 ]
