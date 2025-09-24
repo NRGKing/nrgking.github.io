@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://nrgking.github.io"
 
 # The title of the site. This is required.
 title = "nikrg"
