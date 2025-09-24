@@ -49,4 +49,5 @@ links = [
     { url = "@/misc/index.md", name = "Miscellaneous" },
 
     { url = "https://drive.google.com/file/d/1Ztbv_M-Fi-nj6pE86VU52ridqszBqBwa/view?usp=sharing", name = "Resume" },
+    { url = "https://github.com/NRGKing", name = "GitHub" },
 ]
