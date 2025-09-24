@@ -44,6 +44,9 @@ show_repo = false
 # i.e. "@/blog/_index.md".
 # See https://www.getzola.org/documentation/content/linking/#internal-links
 links = [
-    { url = "@/robotics/index.md", name = "Robotics" },
     { url = "@/game-development/index.md", name = "Game Development" },
+    { url = "@/robotics/index.md", name = "Robotics" },
+    { url = "@/misc/index.md", name = "Miscellaneous" },
+
+    { url = "https://drive.google.com/file/d/1Ztbv_M-Fi-nj6pE86VU52ridqszBqBwa/view?usp=sharing", name = "Resume" },
 ]
