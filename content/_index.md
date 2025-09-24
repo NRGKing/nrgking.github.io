@@ -16,3 +16,5 @@ description = "Welcome to my site"
 I'm currently at student at the University of Maryland! I'm interested in 3D game development, robotics, and systems programming.
 
 [Robotics Projects](@/robotics/index.md).
+[Game Development](@/game-development/index.md).
+[Misc. Projects](@/misc/index.md).
