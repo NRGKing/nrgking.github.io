@@ -2,8 +2,8 @@
 base_url = "https://example.com"
 
 # The title of the site. This is required.
-title = "Nik RG"
-description = "Welcome to my portfolio website."
+title = "nikrg"
+description = "Nikhail's Portfolio"
 
 # The name of the theme to use. This was moved from the [extra] section.
 theme = "duckquill"
@@ -25,6 +25,8 @@ highlight_code = true
 default_theme = "light"
 default_language = "en"
 styles = ["mods.css"]
+
+emoji_favicon = "🥁"
 
 # Accent colors from the Duckquill demo
 accent_color = "#ff7800"

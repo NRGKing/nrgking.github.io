@@ -32,3 +32,12 @@ So, for my third iteration, I've removed all the other stuff and have focused on
 ### Future
 I hope to publish a closed beta by December and aim for a full launch over the Summer.
 
+## Project Mercenary
+
+{{ youtube(id="NBiffNYAWgg") }}
+
+Project Mercenary is a 3D first-person-shooter game where the player’s role is a mercenary. The primary objective is for the player to adventure through space while fulfilling contracts with each contract providing a different area to explore and a new chapter of the story. The central plot provides a cohesive narrative throughout the story as the player grows from a lower ranked mercenary to one of the best in the galaxy.
+
+Most of the movement systems are completed, including the state machine for walking, running, slide, crouch, and dash movements. The weapon system is complete for the two basic weapon types (gun and melee).
+
+This game has been put on hold so that I could focus on Project Odyssey's rewrite.

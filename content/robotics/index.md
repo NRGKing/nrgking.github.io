@@ -11,10 +11,10 @@ banner = "banner.webp"
 
 ## Team 8568C Cowboys / Knights Library
 
-The Knights Autonomous Library includes all of the code necessary for VEX teams to program a robot. Essential features include:
+The Knights Autonomous Library includes all of the code necessary to power a World Division Finalist team. Essential features include:
 - Drive control feature: bindings for input maps (inspired by game development projects) which allows for creation of button functions. Joystick input includes input curve to allow for faster, more consistent driving
 - Odometry system with easily configurable tracking wheels and inertial sensors for almost all configurations. Used to localize the robot’s position on the field, which is displayed on a custom VEX brain display
-- Motion algorithms for robot movement: heavily optimized pure pursuit algorithm (for curved and path following movement) and functional approach to PID (forward/backward and turning). Currently working on move to position with heading
+- Motion algorithms for robot movement: heavily optimized pure pursuit algorithm (for curved and path following movement) and functional approach to PID (forward/backward and turning).
 - Visual path planner: can create full routes with lateral, turn, and curved movements without code
 
 ### Constraints
