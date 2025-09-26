@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en" data-theme="light">
+<head>
+	<!-- 2025-09-26 Fri 22:04 -->
+	<meta charset="UTF-8" />
+	<meta name="description" content="Nik&#x27;s Portfolio" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#ff7800" />
+		<meta name="theme-color" content="#ffa348" media="(prefers-color-scheme:dark)" />
+	<title>Robotics - nikrg</title>
+	<link rel="canonical" href="https://nrgking.github.io/robotics/" /><link rel="icon" type="image/png" href="https://nrgking.github.io/favicon.png" />
+
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://nrgking.github.io/apple-touch-icon.png" />
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='-.07em' y='.89em' font-size='90'%3E🥁%3C/text%3E%3C/svg%3E">
+<style type="text/css">
+	:root {--accent-color: #ff7800;}[data-theme="dark"] {
+			--accent-color: #ffa348;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			:root:not([data-theme="light"]) {
+				--accent-color: #ffa348;
+			}
+		}</style>
+
+			<link type="text/css" rel="stylesheet" href="https://nrgking.github.io/style.css" />
+			<link type="text/css" rel="stylesheet" href="https://nrgking.github.io/icons.css" />
+			<link type="text/css" rel="stylesheet" href="https://nrgking.github.io/mods.css" />
+			<script type="text/javascript" defer  src="https://nrgking.github.io/closable.js"></script>
+
+	<meta property="og:site_name" content="nikrg" />
+	<meta property="og:title" content="Robotics - nikrg" />
+	<meta property="og:url" content="https://nrgking.github.io/robotics/" />
+	<meta property="og:description" content="Nik&#x27;s Portfolio" /><meta property="og:image" content="https:&#x2F;&#x2F;nrgking.github.io&#x2F;processed_images&#x2F;banner.10ba22912d03d9cf.jpg" /><meta property="og:locale" content="en_US" />
+</head>
+
+<body>
+
+		
+<header id="site-nav">
+	<nav>
+		<a href="#main-content" tabindex="0">
+			Skip to Main Content
+		</a>
+		<ul>
+			<li id="home">
+				<a href="https://nrgking.github.io">
+					<i class="icon"></i>nikrg</a>
+			</li>
+			<li class="divider"></li>
+					<li>
+						<a href="https://nrgking.github.io/game-development/">Game Development</a>
+					</li>
+					<li>
+						<a href="https://nrgking.github.io/robotics/"class="active">Robotics</a>
+					</li>
+					<li>
+						<a href="https://nrgking.github.io/misc/">Miscellaneous</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1Ztbv_M-Fi-nj6pE86VU52ridqszBqBwa&#x2F;view?usp=sharing" rel="" class="external">Resume</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;github.com&#x2F;NRGKing" rel="" class="external">GitHub</a>
+					</li>
+		</ul>
+	</nav>
+</header>
+<main id="main-content">
+		<article><div id="banner-container">
+			<img id="banner" class="full-bleed" src="https://nrgking.github.io/robotics/banner.webp"  />
+		</div><div id="heading"><h1>Robotics</h1>
+	</div>
+
+	<div id="buttons-container"><a id="go-to-top" href="#top" title="Go to Top"><i class="icon"></i></a></div><iframe
+	class="youtube-embed"
+	src="https://www.youtube-nocookie.com/embed/P6ZmZoa7wng"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<!-- {{% center %}} -->
+<h3 id="programming-notebook"><a href="https://drive.google.com/file/d/1hd0VK4iIhffCv_00uxb7vwG03PvXW3pT/view?usp=sharing">Programming Notebook</a></h3>
+<p>Recommended Pages: 39 - 62, 67 - 82</p>
+<!-- {{% center %}} -->
+<h1 id="team-8568c-cowboys">Team 8568C Cowboys</h1>
+<p>I was the lead programmer for the VEX Robotics team 8568C from North Andover, Massachusetts. As a team, we placed Math Division Finalist at the 2025 VEX World Championship, tournament finalist at the 2025 Massachusetts State Championship, and won the THINK award (Awarded for Programming Strategy) at the 2024 Southern New England Regional Championship.</p>
+<h2 id="knights-library">Knights Library</h2>
+<p>The Knights Autonomous Library includes all of the code necessary to power a VEX Robotics team. Essential features include:</p>
+<ul>
+<li>Drive control feature: bindings for input maps (inspired by game development projects) which allows for creation of button functions. Joystick input includes input curve to allow for faster, more consistent driving</li>
+<li>Odometry system with easily configurable tracking wheels and inertial sensors for almost all configurations. Used to localize the robot’s position on the field, which is displayed on a custom VEX brain display</li>
+<li>Motion algorithms for robot movement: heavily optimized pure pursuit algorithm (for curved and path following movement) and functional approach to PID (forward/backward and turning).</li>
+<li>Visual path planner: can create full routes with lateral, turn, and curved movements without code</li>
+</ul>
+<h3 id="constraints">Constraints</h3>
+<p>Key constraints of VEX robotics system include:</p>
+<ul>
+<li>Only VEX sensors can be used: third-party inertial sensors for odometry and microcontrollers are prohibited. VEX sensors also can be error-prone, so I needed to write code to account for this.</li>
+<li>Time limits: limited autonomous periods require us to optimize our movement speed</li>
+<li>Propagated Error: VEX rules are extremely strict. If a propagated error results in us breaking a rule (like autonomously picking up a third ring when only two are allowed), our autonomous run is disqualified. Therefore, we have switched to using global movements to ensure that our robot always goes to the correct position.</li>
+</ul>
+<h3 id="visual-path-planner-creation-process">Visual Path Planner Creation Process</h3>
+<p><strong>Version 1</strong> was made with Pygame. Inputs in text form allowed for simple lateral (forward/backward) and turn movements and were displayed on a map. This approach was great for a MVP, but it ended up not being performant enough to handle larger paths with the frame-based rendering of Pygame.</p>
+<p><strong>Version 2</strong> had a similar backend, but incorporated pure pursuit and could create curved paths. Last year’s competition had many obstacles so I built a graph structure with each box corresponding to a specific game field tile. I used graph search algorithms followed by bezier curves to create the arc between any two tiles.</p>
+<p><strong>Version 3</strong> I used Rust, HTML, CSS, and Javascript to upgrade the backend and visuals in the current version. It also incorporates lateral movements, turns, path generation with bezier curves, and has an input system to command robot components (intake, wings, etc). My teammates can use it to easily create autonomous routes.</p>
+<h3 id="reflection">Reflection</h3>
+<p>Some of my earlier work had mistakes, like using time-based lateral movement instead of global position. These caused inaccuracy, resulting in low scores in programming skills and autonomous win points. However, these earlier stages were necessary for me to see why I needed to optimize motion algorithms or why I needed to incorporate features such as global movement or PID in our current design.</p>
+<p>If I had to do things differently, I would have been more flexible in shifting methods. I often would spend a lot of time trying to make one certain method for something work when it wasn't the best choice. This would make the autonomous routines really hard to make, as I was building them off a flawed system. These autonomous routines would also commonly fail, which would lose us matches and hurt our placement on score leaderboards. As I've gotten better at robotics and engineering in general, I've worked to address this issue, often testing and prototyping multiple different solutions for different problems. While this adds more work upfront, it ends up making the use of the solutions a lot easier.</p>
+
+</article>
+	</main>
+	<footer id="site-footer">
+</footer>
+
+	
+
+	<style type="text/css">
+	:root {
+		--alert-note-text: "Note";
+		--alert-tip-text: "Tip";
+		--alert-important-text: "Important";
+		--alert-warning-text: "Warning";
+		--alert-caution-text: "Caution";
+	}
+</style>
+
+
+</body>
+</html>
