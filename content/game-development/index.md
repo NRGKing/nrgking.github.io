@@ -25,12 +25,12 @@ However, the online nature of the platform *completely makes it worth it* to dev
 ### Reflections
 While this project is still ongoing, I've learned a lot along the way. The most important lesson I've learned is that you should get a MVP in the hands of players as soon as possible. My first iteration of the game started with me building an island to play on before I even started the combat system. For a combat game, this was a massive mistake that led to me spending too much time doing unimportant tasks instead of building what actually mattered, the combat.
 
-My second iteration of the game started off well, I started with the combat, but decided that I would try to implement other things like a server browser or elements instead. And while I did get this into the hands of players, it was not my main focus. And, this was a mistake, I would get too far without the combat being polished enough.
+My second iteration of the game started off well, I started with the combat, but decided that I would try to implement other things like a server browser or elements instead. And while I did get this into the hands of players, it was not my main focus. And, this was a mistake, I would get too far without the combat being polished enough. I would realize this during a playtest after a few months of working on the game, there were a lot of bugs and the root causes of them were buried deep within the system. If I wanted to fix the bugs, I would need to rewrite everything because everything was built on a flawed system.
 
-So, for my third iteration, I've removed all the other stuff and have focused on designing a fighting game first. Every week, I playtest the game with friends, getting their opinions on the new mechanics that I've added. And, while this has added a lot of work rewriting code, the game feels astronomically more polished and fun.
+So, for my third iteration, I've removed all the other stuff and have focused on designing a fighting game first. Every week, I playtest the game with friends, getting their opinions on the new mechanics that I've added. And, while this has added a lot of work rewriting code and fixing bugs, the game feels astronomically more polished and fun.
 
 ### Future
-I hope to publish a closed beta by December and aim for a full launch over the Summer.
+I have a current goal of getting a beta for Winter break. This will allow me a lot of time to test it with other people and will allow me to fix most of the current bugs. I'm probably about 30% of the way there, the base combat system is done but I haven't implemented much of the customizability (extra weapon types, more moves, etc.). As I get further into the rewrite, however, I will start to reintegrate the working code from Version 2, which will help me move a lot quicker.
 
 ## Project Mercenary
 
