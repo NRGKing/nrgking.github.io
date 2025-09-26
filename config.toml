@@ -3,7 +3,7 @@ base_url = "https://nrgking.github.io"
 
 # The title of the site. This is required.
 title = "nikrg"
-description = "Nikhail's Portfolio"
+description = "Nik's Portfolio"
 
 # The name of the theme to use. This was moved from the [extra] section.
 theme = "duckquill"
