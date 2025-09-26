@@ -7,11 +7,14 @@ banner = "banner.webp"
 
 {{ youtube(id="P6ZmZoa7wng") }}
 
+{{% center %}}
 ### [Programming Notebook](https://drive.google.com/file/d/1hd0VK4iIhffCv_00uxb7vwG03PvXW3pT/view?usp=sharing)
+Recommended Pages: 39 - 62, 67 - 82
+{{% center %}}
 
 ## Team 8568C Cowboys
 
-I was the lead programmer for the VEX Robotics team 8568C from North Andover Massachusetts. As a team, we placed Math Division Finalist at the 2025 VEX World Championship, tournament finalist at the 2025 Massachusetts State Championship, and won the THINK award (Awarded for Programming Strategy) at the 2024 Southern New England Regional Championship.
+I was the lead programmer for the VEX Robotics team 8568C from North Andover, Massachusetts. As a team, we placed Math Division Finalist at the 2025 VEX World Championship, tournament finalist at the 2025 Massachusetts State Championship, and won the THINK award (Awarded for Programming Strategy) at the 2024 Southern New England Regional Championship.
 
 ### Knights Library
 The Knights Autonomous Library includes all of the code necessary to power a VEX Robotics team. Essential features include:
