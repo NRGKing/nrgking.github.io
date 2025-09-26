@@ -11,7 +11,9 @@ banner = "banner.webp"
 <figcaption>This video is from an earlier iteration of the game, the combat system has been rewritten now and the mechanics are significantly more polished now.</figcaption>
 </figure>
 
+{{% center %}}
 ### [Game Link](https://www.roblox.com/games/18585084767/combat-test)
+{{% center %}}
 
 Project Odyssey is a multiplayer open-world fighting game made using the Roblox platform. The game is centered around players creating customized characters which they can upgrade in levels, abilities, and items. Additionally, there is a mechanic that permanently deletes a character after it dies a certain number of times creating high-stake and emergent gameplay for player versus environment and player versus player interactions.
 

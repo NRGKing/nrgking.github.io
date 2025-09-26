@@ -7,7 +7,10 @@ banner = "banner.webp"
 
 {{ youtube(id="P6ZmZoa7wng") }}
 
+{{% center %}}
 ### [Programming Notebook](https://drive.google.com/file/d/1hd0VK4iIhffCv_00uxb7vwG03PvXW3pT/view?usp=sharing)
+Recommended Pages: 39 - 62, 67 - 82
+{{% center %}}
 
 ## Team 8568C Cowboys
 
