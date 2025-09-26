@@ -11,12 +11,11 @@ banner = "banner.webp"
 ### [Programming Notebook](https://drive.google.com/file/d/1hd0VK4iIhffCv_00uxb7vwG03PvXW3pT/view?usp=sharing)
 Recommended Pages: 39 - 62, 67 - 82
 <!-- {{% center %}} -->
-
-## Team 8568C Cowboys
+# Team 8568C Cowboys
 
 I was the lead programmer for the VEX Robotics team 8568C from North Andover, Massachusetts. As a team, we placed Math Division Finalist at the 2025 VEX World Championship, tournament finalist at the 2025 Massachusetts State Championship, and won the THINK award (Awarded for Programming Strategy) at the 2024 Southern New England Regional Championship.
 
-### Knights Library
+## Knights Library
 The Knights Autonomous Library includes all of the code necessary to power a VEX Robotics team. Essential features include:
 - Drive control feature: bindings for input maps (inspired by game development projects) which allows for creation of button functions. Joystick input includes input curve to allow for faster, more consistent driving
 - Odometry system with easily configurable tracking wheels and inertial sensors for almost all configurations. Used to localize the robot’s position on the field, which is displayed on a custom VEX brain display

@@ -32,7 +32,7 @@ My second iteration of the game started off well, I started with the combat, but
 So, for my third iteration, I've removed all the other stuff and have focused on designing a fighting game first. Every week, I playtest the game with friends, getting their opinions on the new mechanics that I've added. And, while this has added a lot of work rewriting code and fixing bugs, the game feels astronomically more polished and fun.
 
 ### Future
-I have a current goal of getting a beta for Winter break. This will allow me a lot of time to test it with other people and will allow me to fix most of the current bugs. I'm probably about 30% of the way there, the base combat system is done but I haven't implemented much of the customizability (extra weapon types, more moves, etc.). As I get further into the rewrite, however, I will start to reintegrate the working code from Version 2, which will help me move a lot quicker.
+I have a current goal of getting a beta for Winter Break. This will allow me a lot of time to test it with other people and will allow me to fix most of the current bugs. I'm probably about 30% of the way there, the base combat system is done but I haven't implemented much of the customizability (extra weapon types, more moves, etc.). As I get further into the rewrite, however, I will start to reintegrate the working code from Version 2, which will help me move a lot quicker.
 
 ## Project Mercenary
 
